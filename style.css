@@ -1,0 +1,222 @@
+/**
+ * fil: css/style.css
+ **/
+
+  /* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* Bruges som: font-family: 'Roboto Condensed', sans-serif; */
+
+
+
+/* Variabler: genbruges og gør designvalg enkle */
+:root {
+  /* farver */
+  --blue: #1e90ff;
+  --white: #ffffff;
+
+  /* fonte */
+/* Overskrifter */
+  --right: 'Roboto Condensed', sans-serif;
+
+/* Brødtekst */
+  --Brod: 'Alumni Sans', sans-serif;
+
+
+
+}
+
+/* --------------HEADER-------------------------*/
+
+header{
+  /*background-color: var(--white);*/
+}
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*border: 1px solid #000000;*/
+}
+
+.image2 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  /*border: 1px solid red;*/
+}
+
+.image3 {
+  position: absolute;
+  height: auto;
+  width: 50px;
+  top: 50px;
+  left: 1060px;
+  /*border: 1px solid red;*/
+}
+
+.image4 {
+  position: absolute;
+  height: auto;
+  width: 50px;
+  top: 50px;
+  left: 1120px;
+  /*border: 1px solid red;*/
+}
+
+
+
+.menu {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  /*front*/
+  font-family: var(--right);
+  font-size: 25px;
+  color: var(--white);
+  /*border: 1px solid yellow;*/
+}
+
+
+/* -----------------Navigation i Header ------------------*/
+
+ul{
+  list-style-type: none; /*Fjern dimser*/
+}
+
+nav ul li {
+  display: inline;
+}
+
+ #SHOP {
+  padding-left: 200px;
+}
+
+#OMOS {
+  padding-left: 40px;
+}
+
+#GALL {
+  padding-left: 40px;
+
+}
+
+/*   padding-left: 200px; */
+
+
+
+/*--------- link --------*/
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/*-----futter------------------*/
+
+
+.downer {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.pic1 /*gron bund*/ {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*border: 1px solid #000000;*/
+}
+
+.pic2 /*logo*/{
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  /*border: 1px solid red;*/
+}
+
+.pic3 /*facebook bund*/ {
+  position: absolute;
+  height: auto;
+  width: 50px;
+  top: 120px;
+  left: 1060px;
+  /*border: 1px solid red;*/
+}
+
+.pic4 /*insta bund*/{
+  position: absolute;
+  height: auto;
+  width: 50px;
+  top: 120px;
+  left: 1120px;
+  /*border: 1px solid red;*/
+}
+
+#info1 {
+  position: absolute;
+  top: 140px;
+  left: 240px;
+}
+
+#info2 {
+  position: absolute;
+  top: 200px;
+  left: 240px;
+
+}
+
+/* Layout */
+
+/* Typografi */
+h2 {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+
+  /*front*/
+  font-family: var(--right);
+  font-size: 25px;
+
+    border: 1px solid red;
+
+}
+
+p {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+    /*front*/
+  font-family: var(--right);
+  font-size: 19px;
+
+  border: 1px solid red;
+}
